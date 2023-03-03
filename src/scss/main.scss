@@ -1,6 +1,8 @@
 // Фаил для импортов модулей SCSS
-
+// Настсройки
 @import 'normalize';
 @import 'settings';
 @import 'fonts';
 @import 'colors';
+// Компоненты
+@import 'components/header';
