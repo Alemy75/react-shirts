@@ -1,0 +1,43 @@
+@import 'src/scss/colors';
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 3em;
+  &__item {
+    width: 32.3%;
+    text-align: center;
+    margin-bottom: 1.4em;
+    -webkit-box-shadow: 0px 0px 8px -4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px -4px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px -4px rgba(34, 60, 80, 0.2);
+    & img {
+      width: 100%;
+      border-bottom: 1px solid #6f6f6f;
+    }
+  }
+  &__title {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+  }
+  &__cost {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1em 0;
+    color: #000000;
+  }
+  &__button {
+    all: unset;
+    padding: 0.8em 1em;
+    font-size: 1.1em;
+    border: 1px solid $primary;
+    margin-bottom: 1em;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #00344c;
+      border-color: #00344c;
+      color: white;
+    }
+  }
+}
