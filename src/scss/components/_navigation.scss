@@ -1,0 +1,42 @@
+.navigation {
+  &-wrap {
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+  }
+  &__list {
+    display: flex;
+    width: 80%;
+    margin: 0.8em auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  &__item {
+    font-size: 1.2em;
+    padding: 15px 10px;
+    background: #f8f8f8;
+    margin: 0.4em 0.4em;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    &:hover {
+      background-size: 100% 2px;
+      background-color: #efefef;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 910px) {
+  .navigation {
+
+    &__list {
+      width: 100%;
+      justify-content: start;
+      margin-left: -0.4em;
+    }
+  }
+}
