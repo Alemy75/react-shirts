@@ -1,0 +1,13 @@
+.error-page {
+    text-align: center;
+    width: 100%;
+    margin-top: 30vh;
+    &__title {
+        font-size: 3em;
+        font-weight: 400;
+        margin: 1em 0;
+    }
+    &__text {
+        color: #1a1a1a
+    }
+}

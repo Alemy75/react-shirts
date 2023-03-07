@@ -1,16 +1,16 @@
 import React from 'react';
 
-const HomeItem = () => {
+const HomeItem = (props) => {
     return (
         <div className="home__item">
             <img
-                src="src/assets/img/item.jpg"
+                src={props.photos[0]}
                 alt=""
-                onMouseOver={e => (e.currentTarget.src = "src/assets/img/item3.jpg")}
-                onMouseOut={e => (e.currentTarget.src = "src/assets/img/item.jpg")}
+                onMouseOver={e => (e.currentTarget.src = props.photos[1])}
+                onMouseOut={e => (e.currentTarget.src = props.photos[0])}
             />
-            <h4 className="home__title">ФУТБОЛКА AWWA</h4>
-            <div className="home__cost">1200 $</div>
+            <h4 className="home__title">{props.name.toUpperCase()}</h4>
+            <div className="home__cost">{props.price} $.</div>
             <button className="home__button">Подробнее</button>
         </div>
     );

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Топ Ngix",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 1,
+        "country": "Россия"
+    },
+    {
+        "name": "Топ Loffe",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 1,
+        "country": "Россия"
+    },
+    {
+        "name": "Блузка Bounty Island",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 2,
+        "country": "Россия"
+    },
+    {
+        "name": "Блузка РУСЬ",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 2,
+        "country": "Россия"
+    },
+    {
+        "name": "Лонгслив редан",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 3,
+        "country": "Россия"
+    },
+    {
+        "name": "Лонгслив РУСЬ",
+        "price": 1400,
+        "photos": [
+            "src/assets/img/item.jpg",
+            "src/assets/img/item2.jpg",
+            "src/assets/img/item3.jpg"
+        ],
+        "category": 3,
+        "country": "Россия"
+    }
+]
